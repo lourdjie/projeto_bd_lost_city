@@ -13,3 +13,19 @@ create table telemetria_partida (
 
   select *from telemetria_partida ;
 
+
+create table recurso_cenario  (
+  id_rrso  int not null ,
+   id_item   int not null ,
+posicao_x   decimal(10,4) not null ,
+position_y  decimal(10,4) not null ,
+position_z   decimal(10,4) not null
+
+);
+
+
+
+
+
+
+select * from  recurso_cenario 
