@@ -14,6 +14,9 @@ create table telemetria_partida (
   select *from telemetria_partida ;
 
 
+insert into telemetria_partida (id_telemetria partida , id_partida , fps_medio ,items_coletados_total, data_registro ) values ('nalda','nalda@gmail.com','452932','nivel','1','2','3')
+
+
 create table recurso_cenario  (
   id_rrso  int not null ,
    id_item   int not null ,
