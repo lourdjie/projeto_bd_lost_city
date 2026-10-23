@@ -31,4 +31,12 @@ position_z   decimal(10,4) not null
 
 
 
-select * from  recurso_cenario 
+select * from  recurso_cenario  
+
+
+
+
+
+
+
+insert into  ( recurso_cenario id_recurso ,id-item ,posicao_x ,position_y ,position_z ) values ('lourdjie' ,'lourdjie@gmail.com' ,'372902' ,'1','2' ,'3')
