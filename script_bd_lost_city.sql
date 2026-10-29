@@ -23,7 +23,7 @@ create table recurso_cenario  (
 posicao_x   decimal(10,4) not null ,
 position_y  decimal(10,4) not null ,
 position_z   decimal(10,4) not null
-
+coletado boolean
 );
 
 
