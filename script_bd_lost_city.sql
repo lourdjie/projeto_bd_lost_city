@@ -74,5 +74,8 @@ tempo_jogado_segundos INT,
 resultado VARCHAR(50) NOT NULL,
 causa_morte VARCHAR(50),
 data_inicio TIMESTAMP,
-data_fim TIMESTAMP
+data_fim TIMESTAMP 
+
+
+
 );
