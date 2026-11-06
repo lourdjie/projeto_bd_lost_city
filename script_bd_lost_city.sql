@@ -142,4 +142,6 @@ posicao_x decimal(10,4) not null,
 posicao_y decimal(10,4) not null,
 posicao_z decimal(10,4) not null,
 coletado boolean
-);
+); 
+
+id_item  telemetria_partida (id_telemetria partida , id_partida , fps_medio ,items_coletados_total, data_registro ) values ('nalda','nalda@gmail.com','452932','nivel','1','2','3')
